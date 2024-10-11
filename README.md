@@ -1,4 +1,4 @@
-#Stock Analysis Script (Using Google, Microsoft, and Apple for examples)
+#Stock Ticker Analysis Script (Using Google, Microsoft, and Apple for examples)
 
 This project provides a Python script that uses the `yfinance` library to gather financial data for popular technology companies such as Google (Alphabet Inc.), Microsoft, and Apple. The script retrieves various metrics, including dividend yield, earnings per share (EPS), market capitalization, and other financial indicators. It also calculates the dividend payout ratio where applicable.
 
