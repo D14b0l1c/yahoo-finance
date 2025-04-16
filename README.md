@@ -1,17 +1,42 @@
-#Stock Ticker Analysis Script (Using Google, Microsoft, and Apple for examples)
+# 📈 Yahoo Finance Predictive Modeling
 
-This project provides a Python script that uses the `yfinance` library to gather financial data for popular technology companies such as Google (Alphabet Inc.), Microsoft, and Apple. The script retrieves various metrics, including dividend yield, earnings per share (EPS), market capitalization, and other financial indicators. It also calculates the dividend payout ratio where applicable.
+This project demonstrates how to use machine learning to analyze financial data pulled from Yahoo Finance using `yfinance`.
 
-## Features
-- Fetches detailed stock information such as current price, dividend yield, EPS, P/E ratio, market cap, and more.
-- Calculates the dividend payout ratio if dividend and EPS data are available.
-- Exports the data to a CSV file for further analysis.
+---
 
-## Prerequisites
-To run this script, ensure you have the following Python libraries installed:
-- `yfinance`: For accessing stock market data.
-- `pandas`: For data handling and exporting to CSV.
+## ✅ Implemented Models
 
-You can install these dependencies using:
-```bash
-pip install yfinance pandas
+### 🧮 1. Linear Regression
+- Predicts next-day stock price using: PE Ratio, Return on Equity, Beta, and EPS
+- Model file: `models/linear_regression.pkl`
+- Script: `scripts/1_linear_regression.py`
+- Visualizer: `visualize/visualize_1_linear_regression.py`
+
+---
+
+## 📁 Project Structure
+
+```
+yahoo-finance/
+├── data/               # Source CSVs and raw data pulls
+├── models/             # Trained model files (.pkl, .keras)
+├── notebooks/          # Interactive EDA and prediction outputs
+├── scripts/            # One-off ML model scripts for training
+├── visualize/          # Code to inspect predictions from saved models
+├── requirements.txt    # Install dependencies
+└── README.md           # This file
+```
+
+---
+
+## 📚 Data Source
+All data comes from [Yahoo Finance](https://finance.yahoo.com/) via the `yfinance` API.
+
+---
+
+## 🔮 What's Next
+Upcoming models:
+- Random Forest
+- XGBoost
+- ARIMA
+- LSTM
