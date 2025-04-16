@@ -35,8 +35,19 @@ All data comes from [Yahoo Finance](https://finance.yahoo.com/) via the `yfinanc
 ---
 
 ## 🔮 What's Next
-Upcoming models:
-- Random Forest
-- XGBoost
-- ARIMA
-- LSTM
+
+Each of these models will be added to the project in the same format:
+- One training script (`/scripts/`)
+- One trained model (`/models/`)
+- One visualizer (`/visualize/`)
+- One README update
+
+### Planned Additions
+
+- 🌲 Random Forest (Regression + Classification)
+- ⚡ XGBoost (Regression + Classification)
+- 📉 ARIMA (Time Series Forecasting)
+- 🧠 LSTM (Deep Learning for sequences)
+- 📊 Logistic Regression (Directional classification)
+- 🔍 k-Means (Clustering for segmentation)
+- 📈 EBM (Explainable Boosting Machine for interpretability)
