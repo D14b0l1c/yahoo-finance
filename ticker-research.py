@@ -1,5 +1,6 @@
 import yfinance as yf
 import pandas as pd
+import os
 
 # List of example stock tickers
 tickers = [
@@ -10,17 +11,15 @@ tickers = [
 
 # Function to fetch and process stock information for a given ticker
 def get_stock_data(ticker):
-    stock = yf.Ticker(ticker)  # Create a Ticker object using yfinance
-    info = stock.info  # Fetch stock information
-    dividend_rate = info.get("dividendRate")  # Get the dividend rate
-    eps = info.get("trailingEps")  # Get the earnings per share (EPS)
-    
-    # Calculate Dividend Payout Ratio if EPS is available and non-zero
+    stock = yf.Ticker(ticker)
+    info = stock.info
+    dividend_rate = info.get("dividendRate")
+    eps = info.get("trailingEps")
+
     dividend_payout_ratio = None
-    if eps is not None and eps > 0:  # Avoid division by zero
+    if eps is not None and eps > 0:
         dividend_payout_ratio = dividend_rate / eps if dividend_rate else None
 
-    # Return a dictionary with selected stock data
     return {
         "Ticker": ticker,
         "Current Price": info.get("currentPrice"),
@@ -36,15 +35,16 @@ def get_stock_data(ticker):
         "Annual Revenue": info.get("totalRevenue"),
         "Cash Flow": info.get("operatingCashflow"),
         "Analyst Recommendations": info.get("recommendationKey"),
-        "Dividend Payout Ratio": dividend_payout_ratio  # Newly added field
+        "Dividend Payout Ratio": dividend_payout_ratio
     }
 
-# Collect data for each ticker and store it in a DataFrame
+# Collect and store data
 stock_data = [get_stock_data(ticker) for ticker in tickers]
 df = pd.DataFrame(stock_data)
 
-# Save the DataFrame to a CSV file for later use
-csv_file = "tech_stocks_data.csv"
-df.to_csv(csv_file, index=False)
+# Ensure /data directory exists and save CSV there
+os.makedirs("data", exist_ok=True)
+csv_path = os.path.join("data", "tech_stocks_data.csv")
+df.to_csv(csv_path, index=False)
 
-print(f"Data has been exported to {csv_file}")
+print(f"Data has been exported to {csv_path}")
