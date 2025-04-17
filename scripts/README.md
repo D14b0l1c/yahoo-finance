@@ -1,6 +1,8 @@
 # 📂 scripts/
 
-Each file in this folder trains one machine learning model based on `tech_stocks_data.csv`.
+This folder contains training scripts for individual machine learning models.  
+Each script loads financial data, trains a specific model, and saves the result to `/models`.
 
 ### Files:
-- `1_linear_regression.py`: Trains a Linear Regression model and saves to `/models`.
+- `1_linear_regression.py` – Trains a Linear Regression model.
+- `2_random_forest.py` – Trains a Random Forest Regressor for next-day price prediction.

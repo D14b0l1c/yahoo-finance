@@ -1,6 +1,8 @@
 # 📂 visualize/
 
-This folder contains scripts to inspect trained models and visualize actual vs. predicted stock prices.
+This folder contains scripts to inspect and evaluate the predictions made by trained models.  
+Each script loads a `.pkl` model, runs it against the dataset, and prints a comparison of actual vs. predicted prices.
 
 ### Files:
-- `visualize_1_linear_regression.py`: Loads the Linear Regression model and compares predictions to actual prices.
+- `visualize_1_linear_regression.py` – Visualizes output from the Linear Regression model.
+- `visualize_2_random_forest.py` – Visualizes output from the Random Forest Regressor.
