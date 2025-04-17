@@ -12,6 +12,12 @@ This project demonstrates how to use machine learning to analyze financial data 
 - Script: `scripts/1_linear_regression.py`
 - Visualizer: `visualize/visualize_1_linear_regression.py`
 
+### 🌲 2. Random Forest Regressor
+- Predicts next-day stock price using: PE Ratio, Return on Equity, Beta, and EPS
+- Model file: `models/random_forest_regressor.pkl`
+- Script: `scripts/2_random_forest.py`
+- Visualizer: `visualize/visualize_2_random_forest.py`
+
 ---
 
 ## 📁 Project Structure
