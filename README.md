@@ -50,7 +50,6 @@ Each of these models will be added to the project in the same format:
 
 ### Planned Additions
 
-- 🌲 Random Forest (Regression + Classification)
 - ⚡ XGBoost (Regression + Classification)
 - 📉 ARIMA (Time Series Forecasting)
 - 🧠 LSTM (Deep Learning for sequences)
