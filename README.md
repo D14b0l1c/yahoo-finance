@@ -18,6 +18,12 @@ This project demonstrates how to use machine learning to analyze financial data 
 - Script: `scripts/2_random_forest.py`
 - Visualizer: `visualize/visualize_2_random_forest.py`
 
+### ⚡ 3. XGBoost Regressor
+- Predicts next-day stock price using: PE Ratio, Return on Equity, Beta, and EPS
+- Model file: `models/xgboost_regressor.pkl`
+- Script: `scripts/3_xgboost.py`
+- Visualizer: `visualize/visualize_3_xgboost.py`
+
 ---
 
 ## 📁 Project Structure
@@ -50,7 +56,6 @@ Each of these models will be added to the project in the same format:
 
 ### Planned Additions
 
-- ⚡ XGBoost (Regression + Classification)
 - 📉 ARIMA (Time Series Forecasting)
 - 🧠 LSTM (Deep Learning for sequences)
 - 📊 Logistic Regression (Directional classification)

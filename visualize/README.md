@@ -6,3 +6,4 @@ Each script loads a `.pkl` model, runs it against the dataset, and prints a comp
 ### Files:
 - `visualize_1_linear_regression.py` – Visualizes output from the Linear Regression model.
 - `visualize_2_random_forest.py` – Visualizes output from the Random Forest Regressor.
+- `visualize_3_xgboost.py` – Visualizes output from the XGBoost Regressor.
