@@ -1,6 +1,6 @@
 # 📂 notebooks/
 
-This folder holds Jupyter notebooks for exploratory analysis and ML model comparison.
+This folder holds Jupyter notebooks for exploratory analysis and ML model comparisons.
 
 ### Files:
-- `exploratory_analysis.ipynb` – Compares predicted vs actual stock prices using Linear Regression, Random Forest models, and XGBoost.
+- `exploratory_analysis.ipynb` – Visualizes and compares predictions from Linear Regression, Random Forest, XGBoost, and ARIMA.

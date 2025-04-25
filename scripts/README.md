@@ -6,4 +6,5 @@ Each script loads financial data, trains a specific model, and saves the result 
 ### Files:
 - `1_linear_regression.py` – Trains a Linear Regression model.
 - `2_random_forest.py` – Trains a Random Forest Regressor.
-- `3_xgboost.py` – Trains an XGBoost Regressor with high predictive accuracy.
+- `3_xgboost.py` – Trains an XGBoost Regressor.
+- `4_arima.py` – Trains an ARIMA model for time series forecasting.
