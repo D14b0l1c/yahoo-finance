@@ -24,6 +24,12 @@ This project demonstrates how to use machine learning to analyze financial data 
 - Script: `scripts/3_xgboost.py`
 - Visualizer: `visualize/visualize_3_xgboost.py`
 
+### 📉 4. ARIMA (Time Series Forecasting)
+- Forecasts next 5 days of closing stock prices based on historical trends
+- Model file: `models/arima_forecast.pkl`
+- Script: `scripts/4_arima.py`
+- Visualizer: `visualize/visualize_4_arima.py`
+
 ---
 
 ## 📁 Project Structure
@@ -48,15 +54,14 @@ All data comes from [Yahoo Finance](https://finance.yahoo.com/) via the `yfinanc
 
 ## 🔮 What's Next
 
-Each of these models will be added to the project in the same format:
+Each new model will continue to be added following the same structure:
 - One training script (`/scripts/`)
 - One trained model (`/models/`)
 - One visualizer (`/visualize/`)
-- One README update
+- README update
 
 ### Planned Additions
 
-- 📉 ARIMA (Time Series Forecasting)
 - 🧠 LSTM (Deep Learning for sequences)
 - 📊 Logistic Regression (Directional classification)
 - 🔍 k-Means (Clustering for segmentation)
