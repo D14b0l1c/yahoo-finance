@@ -8,3 +8,4 @@ Each script loads financial data, trains a specific model, and saves the result 
 - `2_random_forest.py` – Trains a Random Forest Regressor.
 - `3_xgboost.py` – Trains an XGBoost Regressor.
 - `4_arima.py` – Trains an ARIMA model for time series forecasting.
+- `5_logistic_regression.py` – Trains a Logistic Regression classifier for next-day price movement.

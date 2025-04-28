@@ -30,6 +30,12 @@ This project demonstrates how to use machine learning to analyze financial data 
 - Script: `scripts/4_arima.py`
 - Visualizer: `visualize/visualize_4_arima.py`
 
+### 📈 5. Logistic Regression
+- Classifies next-day stock movement as Up or Down
+- Model file: `models/logistic_regression.pkl`
+- Script: `scripts/5_logistic_regression.py`
+- Visualizer: `visualize/visualize_5_logistic_regression.py`
+
 ---
 
 ## 📁 Project Structure
@@ -63,6 +69,5 @@ Each new model will continue to be added following the same structure:
 ### Planned Additions
 
 - 🧠 LSTM (Deep Learning for sequences)
-- 📊 Logistic Regression (Directional classification)
 - 🔍 k-Means (Clustering for segmentation)
 - 📈 EBM (Explainable Boosting Machine for interpretability)
