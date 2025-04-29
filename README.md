@@ -36,6 +36,12 @@ This project demonstrates how to use machine learning to analyze financial data 
 - Script: `scripts/5_logistic_regression.py`
 - Visualizer: `visualize/visualize_5_logistic_regression.py`
 
+### 🔁 6. LSTM (Deep Learning Sequential Prediction)
+- Predicts next day's closing price based on 10-day memory
+- Model file: `models/lstm_forecast.keras`
+- Script: `scripts/6_lstm.py`
+- Visualizer: `visualize/visualize_6_lstm.py`
+
 ---
 
 ## 📁 Project Structure
@@ -60,14 +66,13 @@ All data comes from [Yahoo Finance](https://finance.yahoo.com/) via the `yfinanc
 
 ## 🔮 What's Next
 
-Each new model will continue to be added following the same structure:
+Each new model continues to follow the structure:
 - One training script (`/scripts/`)
 - One trained model (`/models/`)
 - One visualizer (`/visualize/`)
-- README update
+- README updates
 
 ### Planned Additions
 
-- 🧠 LSTM (Deep Learning for sequences)
-- 🔍 k-Means (Clustering for segmentation)
-- 📈 EBM (Explainable Boosting Machine for interpretability)
+- 🔍 k-Means (Clustering for stock segmentation)
+- 📈 EBM (Explainable Boosting Machine for interpretable modeling)
