@@ -1,5 +1,8 @@
-pandas
-scikit-learn
-joblib
-yfinance
-xgboost
+pandas>=2.0
+scikit-learn>=1.2
+joblib>=1.3
+yfinance>=0.2
+xgboost>=1.7
+matplotlib>=3.7
+tensorflow>=2.13
+keras>=2.13
