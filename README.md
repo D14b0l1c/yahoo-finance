@@ -42,6 +42,12 @@ This project demonstrates how to use machine learning to analyze financial data 
 - Script: `scripts/6_lstm.py`
 - Visualizer: `visualize/visualize_6_lstm.py`
 
+### 🧠 7. k-Means Clustering (Unsupervised Grouping)
+- Groups stocks based on PE, ROE, Beta, and Dividend Yield
+- Model file: `models/kmeans.pkl`
+- Script: `scripts/7_kmeans.py`
+- Visualizer: `visualize/visualize_7_kmeans.py`
+
 ---
 
 ## 📁 Project Structure
@@ -74,5 +80,4 @@ Each new model continues to follow the structure:
 
 ### Planned Additions
 
-- 🔍 k-Means (Clustering for stock segmentation)
-- 📈 EBM (Explainable Boosting Machine for interpretable modeling)
+- 📈 EBM (Explainable Boosting Machine for interpretability)
