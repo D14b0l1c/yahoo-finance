@@ -1,6 +1,6 @@
 # 📂 notebooks/
 
-This folder holds Jupyter notebooks for exploratory analysis and ML model comparisons.
+This folder holds interactive notebooks used for analyzing results from trained models.
 
 ### Files:
-- `exploratory_analysis.ipynb` – Visualizes and compares outputs from all 7 ML models.
+- `exploratory_analysis.ipynb` – Visualizes predictions from 8 trained ML models.
