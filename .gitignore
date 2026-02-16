@@ -17,5 +17,12 @@ venv/
 # Private/sensitive data - DO NOT COMMIT
 tickers/
 data/private/
+data/portfolio_*.csv
+data/portfolio_*.json
+CHATGPT_RESEARCH_DATA.md
 OfxDownload.csv
 *.ofx
+
+# Trained models (contain portfolio-specific patterns)
+models/*.pkl
+models/*.keras
