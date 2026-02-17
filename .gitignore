@@ -15,7 +15,7 @@ venv/
 .ipynb_checkpoints/
 
 # Personal portfolio data - DO NOT COMMIT
-chatgpt_research/
+research/
 tickers/
 data/private/
 data/portfolio_*.csv
