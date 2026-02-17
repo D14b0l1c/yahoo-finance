@@ -14,12 +14,11 @@ venv/
 # Jupyter
 .ipynb_checkpoints/
 
-# Private/sensitive data - DO NOT COMMIT
+# Personal portfolio data - DO NOT COMMIT
+chatgpt_research/
 tickers/
 data/private/
 data/portfolio_*.csv
-data/portfolio_*.json
-CHATGPT_RESEARCH_DATA.md
 OfxDownload.csv
 *.ofx
 
