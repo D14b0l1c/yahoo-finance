@@ -14,7 +14,7 @@ from scipy.optimize import minimize
 
 # Setup paths
 BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
-data_path = os.path.join(BASE_DIR, "data", "tech_stocks_data.csv")
+data_path = os.path.join(BASE_DIR, "research", "portfolio_data.csv")
 model_path = os.path.join(BASE_DIR, "models", "portfolio_optimization.pkl")
 
 # Load data
@@ -23,7 +23,7 @@ df = pd.read_csv(data_path)
 # For portfolio optimization, we need returns for multiple assets
 # Using available data to demonstrate the concept
 if "Current Price" not in df.columns:
-    raise ValueError("Current Price column missing from tech_stocks_data.csv")
+    raise ValueError("Current Price column missing from portfolio_data.csv")
 
 # Simulate multi-asset scenario using available data
 # In production, you'd load actual historical returns per ticker

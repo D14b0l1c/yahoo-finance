@@ -13,7 +13,7 @@ from prophet import Prophet
 
 # Setup paths
 BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
-data_path = os.path.join(BASE_DIR, "data", "tech_stocks_data.csv")
+data_path = os.path.join(BASE_DIR, "research", "portfolio_data.csv")
 model_path = os.path.join(BASE_DIR, "models", "prophet_forecast.pkl")
 
 # Load data
@@ -21,7 +21,7 @@ df = pd.read_csv(data_path)
 
 # Validate required columns
 if "Current Price" not in df.columns:
-    raise ValueError("Current Price column missing from tech_stocks_data.csv")
+    raise ValueError("Current Price column missing from portfolio_data.csv")
 
 # Prophet requires 'ds' (date) and 'y' (value) columns
 # Create synthetic dates if no date column exists

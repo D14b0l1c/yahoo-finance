@@ -10,7 +10,7 @@ import os
 # Paths
 BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 model_path = os.path.join(BASE_DIR, "models", "linear_regression.pkl")
-data_path = os.path.join(BASE_DIR, "data", "tech_stocks_data.csv")
+data_path = os.path.join(BASE_DIR, "research", "portfolio_data.csv")
 
 # Load model and data
 model = joblib.load(model_path)

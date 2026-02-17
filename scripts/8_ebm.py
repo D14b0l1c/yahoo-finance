@@ -12,7 +12,7 @@ from interpret.glassbox import ExplainableBoostingRegressor
 
 # Setup paths
 BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
-data_path = os.path.join(BASE_DIR, "data", "tech_stocks_data.csv")
+data_path = os.path.join(BASE_DIR, "research", "portfolio_data.csv")
 model_path = os.path.join(BASE_DIR, "models", "ebm.pkl")
 
 # Load and prepare data

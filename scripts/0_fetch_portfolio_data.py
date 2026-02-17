@@ -10,9 +10,9 @@ from datetime import datetime, timedelta
 
 # Setup paths
 BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
-tickers_path = os.path.join(BASE_DIR, "tickers", "tickers.txt")
-output_path = os.path.join(BASE_DIR, "data", "portfolio_data.csv")
-history_path = os.path.join(BASE_DIR, "data", "portfolio_history.csv")
+tickers_path = os.path.join(BASE_DIR, "research", "tickers.txt")
+output_path = os.path.join(BASE_DIR, "research", "portfolio_data.csv")
+history_path = os.path.join(BASE_DIR, "research", "portfolio_history.csv")
 
 # Load tickers
 with open(tickers_path, 'r') as f:

@@ -16,9 +16,6 @@ venv/
 
 # Personal portfolio data - DO NOT COMMIT
 research/
-tickers/
-data/private/
-data/portfolio_*.csv
 OfxDownload.csv
 *.ofx
 

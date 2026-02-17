@@ -12,8 +12,8 @@ warnings.filterwarnings('ignore')
 
 # Setup paths
 BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
-fundamental_path = os.path.join(BASE_DIR, "data", "portfolio_data.csv")
-history_path = os.path.join(BASE_DIR, "data", "portfolio_history.csv")
+fundamental_path = os.path.join(BASE_DIR, "research", "portfolio_data.csv")
+history_path = os.path.join(BASE_DIR, "research", "portfolio_history.csv")
 models_dir = os.path.join(BASE_DIR, "models")
 os.makedirs(models_dir, exist_ok=True)
 
